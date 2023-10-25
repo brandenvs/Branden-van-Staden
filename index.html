@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<!--Resources-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--Render Page Title(Default)-->
+  <title>Branden van Staden - MyCV</title>
+
+  <!--(API)GCP WebFont's-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap"
+    rel="stylesheet" />
+
+  <!--(CDN)Bootstrap-v5.3.0-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+
+  <!--CSS Style for Fixed Footer-->
+  <style>
+    /* Class Footer Modify */
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    .sticky-top {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 20px;
+      /* Adjust as needed */
+      z-index: 1000;
+    }
+  </style>
+</head>
+
+<!--Body-->
+
+<body class="p-3 m-0 border-0">
+  <!--Header-->
+  <header class="container-fluid header">
+    <!--Content-->
+    <div class="row align-items-center">
+      <!--App Name-->
+      <div class="col-12">
+        <p class="display-4 m-2 text-center text-wrap">Branden van Staden - Welcome to MyCV</p>
+        <p class="fs-4 m-2 text-center">Deployed with GitHub Pages</p>
+      </div>
+
+      <!--NavBar-->
+      <div class="col-lg-5 col-md-col-6 col-12">
+        <nav class="navbar navbar-expand-lg bg-body-primary p-2">
+          <!--Mobile Responsive Drop Down Btn-->
+          <button id="dropdownBtn" class="navbar-toggler btn btn-secondary" type="button" data-bs-toggle="collapse"
+            data-bs-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-arrow-bar-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z" />
+            </svg>
+          </button>
+        </nav>
+      </div>
+      <!--Header Ends-->
+    </div>
+  </header>
+  <hr>
+
+  <!--Front Page Container--->
+  <div class="container-fluid p-2">
+    <!--Front Page Rows--->
+    <div class="row g-2">
+      <!--Front Page Column Sections--->
+      <!--Profile Section-->
+      <section class="col-12">
+        <!--Profile Card-->
+        <div class="card bg-dark bg-gradient border border-dark rounded-3 mb-3">
+          <div class="row g-2">
+            <div class="col-md-4 col-12 p-2">
+              <!--Profile Picture-->
+              <img src="Me.jpg" class="img-fluid d-bloc rounded-pill mt-3 ms-3 mb-3" alt="Branden's Profile Picture">
+            </div>
+            <div class="col-md-8 col-12">
+              <!--Profile Content-->
+              <div class="card-body">
+                <h3 class="card-title text-white">Branden van Staden - Fullstack Software Developer</h3>
+                <div class="mb-0 mt-0 ms-1">
+                  <div class="text-wrap bg-secondary badge">
+                    <p class="fs-5 fw-semibold mb-0 text-white">Cape Town, South Africa</p>
+                  </div>
+                  <div class="text-wrap bg-success badge">
+                    <p class="fs-5 fw-semibold mb-0 text-white">C# EXPERT</p>
+                  </div>
+                  <div class="text-wrap bg-info badge">
+                    <p class="fs-5 fw-semibold mb-0 text-white">PYTHON EXPERT</p>
+                  </div>
+                  <div class="text-wrap bg-warning badge">
+                    <p class="fs-5 fw-semibold mb-0 text-black">Information Sciences</p>
+                  </div>
+                </div>
+                <!--Profile Card Text-->
+                <div class="mb-0 mt-0 ms-2">
+                  <p class="card-text">
+                    <hr>
+                  <p class="lead mb-0">
+                    Branden van Staden is a passionate Fullstack Software Engineer located in Cape Town,
+                    South Africa.
+                  </p>
+                  <p class="lead mt-0">
+                  <figure class="text-end">
+                    <blockquote class="blockquote">
+                      <p class="fs-6 fs-lighter">
+                        "I've navigated diverse projects, spanning scales from compact to expansive.
+                        My expertise encompasses both frontend and backend realms. This demo showcases a fraction
+                        of my capabilities. Reach out to discuss your upcoming IT endeavor"
+                      </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Branden van Staden
+                    </figcaption>
+                  </figure>
+                  </p>
+
+                  <p class="lh-base">
+                  <h5>Mission Statement...</h5>
+                  Embarking on the software development odyssey, I embrace challenges that stretch my limits.
+                  As I persistently learn and enhance my skills, I'm equally committed to enriching the developer
+                  community. Guiding and enlightening novice programmers is my avenue to foster communal advancement.
+                  With unwavering conviction, I view learning as an unceasing voyage, ignited by my ardor for
+                  programming and its interconnected domains. The gratification of imbibing and instructing fuels
+                  my own comprehension, affirming its depth.
+                  </p>
+                  </p>
+                </div>
+                <!--Card Footer-->
+                <div class="card-footer bg-dark">
+                  <div class="hstack gap-3">
+                    <div class="p-2">
+                      <p class="text-start ms-0 mb-0"><em>Built by</em></p>
+                      <p class="text-start ms-1 mb-0"><b>Branden van Staden</b></p>
+                    </div>
+                    <div class="p-2 ms-auto">
+                      <p class="text-start ms-0 mb-0"><em>Send <b class="fw-semibold">Branden</b> an Email</em></p>
+                      <p class="text-start ms-1 mb-0"><a href="mailto:brandenconnected@gmail.com" title="Branden's email address ..."><b>brandenconnected@gmail.com</b></a></p>
+                    </div>
+                    <div class="p-2">
+                      <a href="#more"
+                        class="link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-info text-black fw-bold bg-light rounded p-2"
+                        title="CLICK ME!">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-stars" viewBox="0 0 16 16">
+                          <path
+                            d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z" />
+                        </svg> Learn more?
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Table of Contents-->
+      <section class="col-md-4 col-12">
+        <div class="p-3 text-info-emphasis bg-info-subtle border border-info rounded-3 sticky-top" id="more">
+          <p class="display-5">More About Branden</p>
+          <hr>
+          <p class="fs-2 ms-1"><em>Table of Contents</em></p>
+          <div class="list-group">
+            <!--Completed Qualifications Section Btn-->
+            <a href="#completedQualifications" class="list-group-item list-group-item-action"
+              title="My Academic Journey & Visual Representation of Personal Growth">
+              Completed Qualifications
+            </a>
+
+            <!--Featured Projects Modal Btn-->
+            <a href="#featuredProjects" class="list-group-item list-group-item-action"
+              title="Experienced with both Large & Small Projects">
+              Featured Projects
+            </a>
+
+            <!--Knowledge Context Modal Btn-->
+            <a href="#knowledgeContext" class="list-group-item list-group-item-action"
+              title="Learn how I apply Different & Versatile approaches when solving problems">
+              Knowledge Context
+            </a>
+
+            <!--Endorsements Modal Btn-->
+            <a href="#endorsements" class="list-group-item list-group-item-action" title="Endorsements & Endorsing">
+              Endorsements
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--Contents-->
+      <section class="col-md-8 col-12">
+        <!--Completed Qualifications Content-->
+        <div class="bg-dark-subtle border rounded-3 mb-3" id="completedQualifications">
+          <!--Modal Title-->
+          <p class="fs-1 ms-3 text-primary-emphasis">Completed Qualifications</p>
+          <hr>
+          <!--HyperionDev - Software Engineering Boot Camp-->
+          <div class="mt-0 p-2" id="softwareEng">
+            <div class="row g-2">
+              <!--Panel Title-->
+              <div class="col-12">
+                <p class="fs-2 text-white ms-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                    class="bi bi-filetype-py" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M14 4.5V14a2 2 0 0 1-2 2H7v-1h5a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM0 11.85h1.6c.289 0 .533.06.732.179.201.117.355.276.46.477.105.201.158.427.158.677 0 .25-.054.476-.16.677-.106.199-.26.357-.464.474a1.452 1.452 0 0 1-.732.173H.79v1.342H0V11.85Zm2.06 1.714a.795.795 0 0 0 .085-.381c0-.227-.062-.4-.185-.521-.123-.122-.294-.182-.513-.182H.788v1.406h.66a.794.794 0 0 0 .374-.082.574.574 0 0 0 .238-.24Zm2.963.75v1.535H4.23v-1.52L2.89 11.85h.876l.853 1.696h.032l.856-1.696h.855l-1.339 2.464Z" />
+                  </svg> Python Software Engineering Bootcamp
+                </p>
+                <!--Panel Badges-->
+                <div class="mb-0 mt-0 ms-1">
+                  <div class="text-wrap bg-info badge">
+                    <p class="fs-5 fw-semibold mb-0 text-white">HyperionDev</p>
+                  </div>
+                  <div class="text-wrap bg-warning badge">
+                    <p class="fs-5 fw-semibold mb-0 text-black">IN-PROGRESS</p>
+                  </div>
+                </div>
+                <hr>
+              </div>
+
+              <!--Panel Top Content-->
+              <div class="col-12">
+                <!--My Experience-->
+                <div class="p-2 bg-tertiary-subtle border border-dark-subtle rounded-3">
+                  <!--Content-->
+                  <p class="fs-3 text-secondary-emphasis ms-2 mb-1">
+                    <!--Heading-->
+                    My Experience <span class="fw-lighter fs-5"><small><em>in a nutshell</em></small></span>
+                    <!--Body-->
+                  <p class="lead text-body-emphasis ms-2 mb-2">
+                    Covering Python Language extensively through completing a series of challenging programming tasks
+                    within
+                    levels. The bootcamp covers the Web Framework - Django and virtual environments.
+                  </p>
+                  <p class="lead text-body-emphasis ms-2 mb-2">
+                    Mentoring and motivating those around me - I aimed to set the standards for the bootcamp and helping
+                    those which are struggling.
+                  </p>
+                  </p>
+
+                  <!--Content-->
+                  <p class="fs-3 text-secondary-emphasis ms-2 mb-1">
+                    <!--Heading-->
+                    My Goals <span class="fw-lighter fs-5"><small><em>during bootcamp</em></small></span>
+                    <!--Body-->
+                  <p class="text-body ms-2">
+                    My goal was and still is to build confidence with my own capabilities and giving back though
+                    tutoring
+                    and sharing my knowledge. Hopefully I am able to inspire someone and give them confidence with their
+                    own
+                    abilities!
+                  </p>
+                  </p>
+
+                  <!--Heading-->
+                  <p class="fs-3 text-secondary-emphasis ms-2 mb-1">
+                    Conclusion
+                  <p class="text-body ms-2 mb-2">
+                    I remember when I first start writing code I was amazed by those that know how to write working
+                    code.
+                    Yet, I
+                    found myself struggling since I never had a someone helping and mentoring me through the learning
+                    process -
+                    I wish for those I tutor and mentor that they are able to grow and expand their skills when it
+                    coming to
+                    writing code.
+                  </p>
+                  </p>
+                </div>
+              </div>
+
+              <!--Panel Bottom Content-Left-->
+              <div class="col">
+                <!--Factual Information-->
+                <div class="p-2 mt-2 bg-tertiary-subtle border border-dark-subtle rounded-3">
+                  <!--Heading-->
+                  <p class="fs-3 text-secondary-emphasis ms-2 mb-1">Factual Information</p>
+                  <!--Content-->
+                  <ul>
+                    <li>
+                      <p class="text-body ms-2 mb-2"><span class="fw-medium">Institution Name & Location</span><br>
+                        <a href="https://www.hyperiondev.com/" title="Visit Website" target="_blank" rel="noopener"
+                          class="link-light link-underline-opacity-100-hover link-underline-opacity-25">HyperionDev Cape
+                          Town Campus</a>
+                      </p>
+                    </li>
+                    <li>
+                      <p class="text-body ms-2 mb-2"><span class="fw-medium">Duration & Type</span><br>
+                        This Software Engineering Bootcamp took me 5 months to finish<br><b>05 April - 04
+                          October</b> 2023
+                      <p class="ms-2">I completed the Bootcamp On-site with other peers learning, getting the
+                        opportunity to
+                        build my network & understanding of, the I.T Industry.</p>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!--Panel Bottom Content-Right-->
+              <div class="col">
+                <!--Personal Achievements-->
+                <div class="p-2 mt-2 bg-tertiary-subtle border border-dark-subtle rounded-3">
+                  <!--Heading-->
+                  <p class="fs-3 text-secondary-emphasis ms-2 mb-1">Personal Achievements</p>
+                  <!--Content-->
+                  <ul>
+                    <li>
+                      <p class="text-body ms-2 mb-2"><span class="fw-medium">Python & Django Web Framework</span><br>
+                        Guiding others through the complexities of Python and the Django web framework, sharing insights
+                        and
+                        helping them conquer challenges.
+                      </p>
+                    </li>
+                    <li>
+                      <p class="text-body ms-2 mb-2"><span class="fw-medium">Received above 95% Overall Average
+                          Mark</span><br>
+                        My commitment to excellence has been reflected in my achievements, <u>earning an overall average
+                          mark of
+                          above 95%</u>. This showcases my dedication to learning and delivering exceptional results.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!--IIE Varsity College - Bachelors of Computer Application Development & Information Sciences-->
+          <div class="mt-0 p-2" id="appDevDegree">
+            <div class="row g-2 ">
+              <!--Panel Title-->
+              <div class="col-12">
+                <p class="fs-2 text-white ms-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                    class="bi bi-file-code" viewBox="0 0 16 16">
+                    <path
+                      d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z" />
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z" />
+                  </svg> Bachelors of Computer Application Development & Information Sciences
+                </p>
+                <!--Panel Badges-->
+                <div class="mb-0 mt-0 ms-1">
+                  <div class="text-wrap bg-info badge">
+                    <p class="fs-5 fw-semibold mb-0 text-white">IIE Varsity College</p>
+                  </div>
+                  <div class="text-wrap bg-success badge">
+                    <p class="fs-5 fw-semibold mb-0 text-black">COMPLETED</p>
+                  </div>
+                </div>
+                <hr>
+              </div>
+
+              <!--Panel Top Content-->
+              <div class="col-12">
+                <!--My Experience-->
+                <div class="p-2 bg-tertiary-subtle border border-dark-subtle rounded-3">
+                  <!--Content-->
+                  <p class="fs-3 text-secondary-emphasis ms-2 mb-1">
+                    <!--Heading-->
+                    My Experience <span class="fw-lighter fs-5"><small><em>in a nutshell</em></small></span>
+                    <!--Body-->
+                  <p class="lead text-body-emphasis ms-2 mb-2">
+                    In my pursuit of a Bachelor of Computer Application Development & Information Sciences, spanning
+                    four years at Varsity
+                    College IIE Cape Town, I delved into the realm of IT and its associated methodologies.
+                  </p>
+                  <p class="lead text-body-emphasis ms-2 mb-2">
+                    My journey encompassed the
+                    exploration of project management, IT project life cycles, IT research, as well as the intricate
+                    domains of DOTNET and
+                    C# frameworks. While the path wasn't devoid of challenges, particularly in the realm of
+                    mathematics—an area I did not
+                    initially find passion in—I persevered, dedicating myself to mastering the art of software
+                    development and
+                    problem-solving through coding.
+                  </p>
+                  </p>
+
+                  <!--Content-->
+                  <p class="fs-3 text-secondary-emphasis ms-2 mb-1">
+                    <!--Heading-->
+                    My Goals <span class="fw-lighter fs-5"><small><em>during bootcamp</em></small></span>
+                    <!--Body-->
+                  <p class="text-body ms-2">
+                    Throughout my academic journey, my overarching goals were twofold. Firstly, I aspired to attain a
+                    comprehensive
+                    understanding of Information Technology, grounded in practical knowledge. Secondly, I aimed to
+                    emerge from this
+                    educational odyssey with the ability to independently conceive and execute end-to-end IT projects, a
+                    testament to my
+                    growth and development in the field.
+                  </p>
+                  </p>
+
+                  <!--Heading-->
+                  <p class="fs-3 text-secondary-emphasis ms-2 mb-1">
+                    Conclusion
+                  <p class="text-body ms-2 mb-2">
+                    My pursuit of a Bachelor's degree in Computer Application Development & Information Sciences proved
+                    to be an invaluable
+                    experience marked by hard work and a fine balance between various facets of academia and personal
+                    growth.
+                  </p>
+                  <p class="text-body ms-2 mb-2">
+                    It served as the foundation upon which I built my subsequent journey in the realm of IT,
+                    particularly during my Python
+                    Bootcamp, where I refined and applied the broad ideas and methodologies instilled during my
+                    undergraduate years
+                  </p>
+                  </p>
+                </div>
+              </div>
+
+              <!--Panel Middle Content-Left-->
+              <div class="col">
+                <!--Factual Information-->
+                <div class="p-2 mt-2 bg-tertiary-subtle border border-dark-subtle rounded-3">
+                  <!--Heading-->
+                  <p class="fs-3 text-secondary-emphasis ms-2 mb-1">Factual Information</p>
+                  <!--Content-->
+                  <ul>
+                    <li>
+                      <p class="text-body ms-2 mb-2"><span class="fw-medium">Institution Name & Location</span><br>
+                        <a href="https://www.varsitycollege.co.za/" title="Visit Website" target="_blank" rel="noopener"
+                          class="link-light link-underline-opacity-100-hover link-underline-opacity-25">IIE Varsity
+                          College Cape Town Campus</a>
+                      </p>
+                    </li>
+                    <li>
+                      <p class="text-body ms-2 mb-2"><span class="fw-medium">Duration & Type</span><br>
+                        This educational journey spanned four years, from 2019 to 2023, and was conducted on-campus in
+                        an in-person learning
+                        environment.
+                      <p class="ms-2">This physical presence allowed me to foster connections with both esteemed
+                        lecturers and fellow classmates,
+                        enriching my understanding and facilitating meaningful interactions within the academic
+                        community.</p>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!--Panel Middle Content-Right-->
+              <div class="col">
+                <!--Personal Achievements-->
+                <div class="p-2 mt-2 bg-tertiary-subtle border border-dark-subtle rounded-3">
+                  <!--Heading-->
+                  <p class="fs-3 text-secondary-emphasis ms-2 mb-1">Personal Achievements</p>
+                  <!--Content-->
+                  <ul>
+                    <li>
+                      <p class="text-body ms-2 mb-2"><span class="fw-medium">Project Management (Pass with
+                          Distinction)</span><br>
+                        I achieved an outstanding final mark, surpassing 80%, in Project Management, demonstrating my
+                        proficiency in
+                        orchestrating and overseeing complex projects. This accomplishment reflects my ability to excel
+                        in planning, executing,
+                        and delivering successful endeavors.
+                      </p>
+                    </li>
+                    <li>
+                      <p class="text-body ms-2 mb-2"><span class="fw-medium">Programming (Pass with
+                          Distinction)</span><br>
+                        I attained a remarkable final mark of above 80% in the Programming course, signifying my prowess
+                        in software development
+                        and coding. This achievement underscores my capacity to conceptualize, design, and implement
+                        robust solutions through
+                        programming.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!--Panel Bottom Content-->
+              <div class="col-12">
+                <!--My Referrals-->
+                <div class="p-2 bg-tertiary-subtle border border-dark-subtle rounded-3">
+                  <!--Content-->
+                  <p class="fs-3 text-secondary-emphasis ms-2 mb-1">
+                    <!--Heading-->
+                    Referrals <span class="fw-lighter fs-5">Feel free to email my references to validate</span>
+                    <!--Body-->
+                  <p class="lead text-body-emphasis ms-2 mb-2">
+                  <ul>
+                    <li>
+                      <p class="text-body ms-2 mb-2"><span class="fw-medium">Referral Obtained from Dr. Rudolf
+                          (Programming Lecturer)</span><br>
+                        My dedication and performance in the field of programming were acknowledged with a referral from
+                        Dr. Rudolf, a respected
+                        programming lecturer. This endorsement highlights my aptitude and commitment to the subject, as
+                        recognized by an
+                        esteemed educator in the field.
+                      </p>
+                    </li>
+                    <li>
+                      <p class="text-body ms-2 mb-2"><span class="fw-medium">Referral Obtained from Dr. Deborah Ajumobi
+                          (IT Project Management and IT Project Research Lecturer)</span><br>
+                        I received a referral from Dr. Deborah Ajumobi, a distinguished lecturer in IT Project
+                        Management and IT Project
+                        Research. This referral underscores my exceptional performance and dedication in these domains,
+                        as recognized by an
+                        esteemed educator in the field.
+                      </p>
+                    </li>
+                  </ul>
+                  In my pursuit of a Bachelor of Computer Application Development & Information Sciences, spanning four
+                  years at Varsity
+                  College IIE Cape Town, I delved into the realm of IT and its associated methodologies.
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Featured Projects Content-->
+        <div class="bg-dark-subtle border rounded-3 mb-3 p-2" id="featuredProjects">
+          <!--Modal Title-->
+          <p class="fs-1 ms-3 text-warning-emphasis">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+              class="bi bi-cone-striped" viewBox="0 0 16 16">
+              <path
+                d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z" />
+            </svg> Under Construction!
+          <p class="ms-4 fs-2"><small><em>Featured Projects</em></small></p>
+          </p>
+          <hr>
+          <div class="mt-0 p-2" id="#0">
+            <p class="text-body ms-2 mb-2"><span class="fw-medium">Integrated Learning (The Secret Love Project
+                Portfolio Work with a Team of 5 Others)</span><br>
+              My participation in the "Secret Love Project Portfolio," undertaken collaboratively with a team of five
+              individuals,
+              stands as a testament to my ability to work cohesively in a group setting. This achievement is a
+              reflection of my
+              effective communication, teamwork, and project coordination skills, which contributed to the successful
+              completion of
+              this complex endeavor.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--End of Frontpage Rows-->
+    </div>
+  </div>
+
+  <!--Endorsement Toast Message -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="promptEndorsement" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <p class="me-auto lead mb-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check2-circle"
+            viewBox="0 0 16 16">
+            <path
+              d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+            <path
+              d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+          </svg> Help Branden Level-up!
+        </p>
+        <button id="closeToastBtn" type="button" class="btn-close" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        <p><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            title="Give Endorsements">Endorse Branden van Staden</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="container-fluid">
+    <div class="row">
+      <hr>
+      <div class="col-md-6 col-6">
+        <p class="text-start">
+          &copy; 2023 Branden van Staden. All rights reserved.
+        </p>
+      </div>
+      <div class="col-md-6 col-6">
+        <p class="text-end">
+          Personal App - L2T18 Django I
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!--(CDN)Bootstrap-v5.3.0-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <!--(CDN)JQuery-v3.6.0-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const containers = document.querySelectorAll(".tab-container");
+
+      containers.forEach(function (container) {
+        const tabButtons = container.querySelectorAll(".nav-link");
+        const tabContents = container.querySelectorAll(".collapse");
+
+        tabButtons.forEach(function (btn) {
+          btn.addEventListener("click", function (event) {
+            event.preventDefault();
+
+            tabButtons.forEach(function (btn) {
+              btn.classList.remove("active");
+            });
+
+            btn.classList.add("active");
+
+            const modalId = btn.getAttribute("href");
+
+            tabContents.forEach(function (content) {
+              content.classList.remove("show");
+            });
+
+            const targetId = modalId.substr(1);
+            const targetContent = container.querySelector(targetId);
+            if (targetContent) {
+              targetContent.classList.add("show");
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

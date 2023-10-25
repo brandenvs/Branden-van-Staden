@@ -1,2 +1,2 @@
-# Branden-van-Staden
-An Overview of the Branden van Staden
+# MyCV
+This Repository is used to serve code completed for HyperionDev's Software Engineering Bootcamp.
